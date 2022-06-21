@@ -1,0 +1,124 @@
+.mainDiv{
+    height: 100%;
+    width: 100%;
+
+
+    p{
+      font-size: 50px;
+      color: var(--primary-color);
+      text-align: center;
+      font-weight: bold;
+
+    }
+
+    .skillList{
+      display: flex;
+      justify-content: center;
+      font-size: large;
+      color: var(--primary-color);
+
+
+    }
+
+    .Heading{
+        display: flex;
+        height: 82.5px;
+        width: 100%;
+        justify-content: center;
+        box-shadow: 0 8px 6px -6px var(--secondary-color);
+        font-weight: bold;
+
+
+        .name{
+            font-size: 50px;
+            margin-top: 35px;
+            color: var(--primary-color);
+            text-shadow: 1px 1px 10px var(--primary-shadow), 1px 1px 10px var(--primary-shadow);
+        }
+    }
+}
+
+.content{
+
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+
+
+
+
+    .contact{
+        background-color: var(--background-secondary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+        height: auto;
+        width: 100%;
+        padding-top: 10px;
+
+
+
+        .icon{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding-left: 20px;
+
+            img{
+                width: 67px;
+            }
+            img:hover{
+                filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(206deg) brightness(100%) contrast(500%);
+            }
+        }
+
+
+
+    }
+    .body{
+        background-color: var(--background-secondary);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+
+
+        hr{
+            background-color: aqua;
+            height: 1px;
+            border: none;
+            width: 100%;
+        }
+
+
+        .proj{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+
+
+            .project{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                width: 200px;
+                height: auto;
+                background-color: var(--secondary-color);
+                color: aqua;
+
+                button{
+                    background-color: black;
+                    color: var(--primary-color);
+                }
+            }
+
+        }
+    }
+
+}
+
